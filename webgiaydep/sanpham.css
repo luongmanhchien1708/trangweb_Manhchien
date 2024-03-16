@@ -1,0 +1,224 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    section{
+        background-color: #f3f2f0;
+    }
+    #wrapper {
+        width: 100%;
+        height: 100vh;
+    }
+
+    #header {
+        width: 100%;
+        padding: 0px 30px;
+        margin-top: 33px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #menu {
+        list-style: none;
+        display: flex;
+    }
+
+    #menu .item {
+        margin: 0px 25px;
+    }
+
+    #menu .item a {
+        color: #626A67;
+        text-decoration: none;
+    }
+
+
+    #actions {
+        display: flex;
+    }
+
+    #actions .item {
+        margin-left: 22px;
+    }
+
+    #banner {
+        width: 100%;
+        background-image: url("image/banner1.png");
+        height: 500px;
+        margin-top: 40px;
+        display: flex;
+        padding: 0px 133px;
+        position: relative;
+    }
+
+    .main-content {
+        padding: 15px 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .main-content a{
+        text-decoration: underline;
+        color: #626A67;
+    }
+    .main-content a:hover{
+        color: #A5D6A7;
+    }
+    .container{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .wrapbox-img{
+        width: 20%;
+        padding: 10px 20px;
+    }
+    .wrapbox-righ{
+        display: flex;
+    }
+    .wrapbox-img img{
+        width: 274px;
+        height: 645px;
+    }
+    .row{
+        display: flex;
+        width: 1105px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .product{
+        border:#f3f2f0 solid 2px; 
+        text-align: center;
+        width: 200px;
+        height: 330px;
+    }
+
+    .product-image img{
+        width: 195px;
+        height: 195px;
+    }
+    .secsion-heading{
+        display: flex;
+    }
+    .product-detail{
+        line-height: 25px;
+        margin: 10px 15px;
+    }
+    .product-detail h3,p{
+        font-size: 13px;
+    }
+    .product-detail p{
+        color: red;
+    }
+    .product-detail button{
+
+        background: #fff;
+        border: 1px solid transparent;
+        border-radius: 16px;
+        padding: 0 15px 0 15px;
+        height: 32px;
+        line-height: 30px;
+        outline: none;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .product-detail button:hover{
+        border: #b0debe solid 2px;
+    }
+    .wrapbox-btn {
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        color: var(--shop-color-button);
+        margin-top: 20px;
+        text-transform: initial;
+        font-size: 14px;
+        border-radius: 4px;
+        padding: 10px 25px;
+    }
+    .button{
+        background-color: none;
+        border: none;
+        width: 165px;
+        height: 36px;
+    }
+    .button:hover{
+        border-radius: 16px;
+    background-color: #FFEB3B;
+    }
+    .bnn-img{
+        width: 100%;
+        padding-top: 3em;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .row-bnn{
+        padding-top: 25px;
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    }
+    .col-bnn img{
+        width: 100%;
+        height: 350px;
+    }
+    #footer {
+        width: 100%;
+        background:rgba(183, 195, 199, 0.79);
+        height: 322px;
+        margin-top:338px;
+        padding:0px 63px;
+        padding-top:57px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #footer .box {
+        width: 250px;
+        color:#fff;
+    }
+    
+    #footer .box .quick-menu {
+        margin-top:40px;
+    
+    }
+    
+    
+    #footer .box .quick-menu .item{
+        margin-bottom:12px;
+    
+    }
+    #footer .box .quick-menu ,.item a{
+        color:#fff;
+        text-decoration: none;
+    }
+    
+    
+    
+    #footer .box form input {
+        width: 294px;
+        height: 42px;
+        background:transparent;
+        padding-left:20px;
+        color:#fff;
+        margin-top:30px;
+    }
+    
+    #footer .box form button {
+        background:#362f2f;
+        box-shadow: 5px 5px 4px rgba(0,0,0.25);
+        width: 163px;
+        height: 38px;
+        margin-top:29px;
+        color:#fff;
+    }
